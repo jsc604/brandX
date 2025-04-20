@@ -3,19 +3,6 @@
 
 @theme static {
   --font-sans: 'Poppins', 'Public Sans', sans-serif;
-  --color-rob-roy: oklch(85.349% 0.12483 89.625);
-  --color-rob-roy-50: oklch(100% 0 none);
-  --color-rob-roy-100: oklch(99.723% 0.00285 84.559);
-  --color-rob-roy-200: oklch(95.921% 0.03574 89.442);
-  --color-rob-roy-300: oklch(92.213% 0.06782 89.689);
-  --color-rob-roy-400: oklch(88.815% 0.09865 90.421);
-  --color-rob-roy-500: oklch(85.349% 0.12483 89.625);
-  --color-rob-roy-600: oklch(81.049% 0.15051 87.574);
-  --color-rob-roy-700: oklch(72.972% 0.14519 85.107);
-  --color-rob-roy-800: oklch(59.415% 0.11716 85.318);
-  --color-rob-roy-900: oklch(45.249% 0.0879 86.912);
-  --color-rob-roy-950: oklch(37.582% 0.07145 86.1);
-
 
   --color-haiti: oklch(18.598% 0.0553 297.2);
   --color-haiti-50: oklch(18.598% 0.0553 297.2);

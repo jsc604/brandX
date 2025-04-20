@@ -4,5 +4,6 @@
       <HeaderNav />
       <slot />
     </div>
+    <FooterNav />
   </UApp>
 </template>

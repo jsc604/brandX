@@ -16,7 +16,7 @@
       <div
         class="flex flex-col items-center md:items-start justify-center gap-4 md:gap-8 md:w-1/2 text-center md:text-start"
       >
-        <h1
+        <h2
           class="font-bold text-xl md:text-4xl lg:text-5xl xl:text-6xl uppercase"
         >
           Manufacturing, Sourcing,<br><span
@@ -24,8 +24,8 @@
             >Innovations
             <span class="absolute bottom-0 left-0 h-1 bg-lime-500 w-1/4"
           /></span>
-        </h1>
-        <h2>Custom On-packs, Neck Hangers, Gift with Purchase</h2>
+        </h2>
+        <h3>Custom On-packs, Neck Hangers, Gift with Purchase</h3>
         <UButton
           label="Explore Our Services"
           to="/services"
@@ -41,7 +41,7 @@
       <section
         class="flex flex-col items-center gap-8 justify-center md:max-w-3/4"
       >
-        <h1
+        <h2
           class="font-bold text-xl md:text-4xl lg:text-5xl xl:text-6xl uppercase"
         >
           Customized POS Merchandise
@@ -51,7 +51,7 @@
             <span
               class="absolute bottom-0 left-1/2 -translate-x-1/2 h-1 bg-lime-500 w-1/4"
           /></span>
-        </h1>
+        </h2>
         <p>
           At BrandX Marketing Solutions, we specialize in high-quality design
           and manufacturing on-packs. With over 30 years of experience, we are
@@ -89,9 +89,9 @@
         <section
           class="flex flex-col items-center gap-4 justify-center text-center md:max-w-3/4 mx-auto border-4 p-4 md:p-8 lg:p-12 xl:p-16 lg:max-w-1/2 lg:text-start"
         >
-          <h1 class="font-bold text-3xl md:text-4xl xl:text-5xl uppercase">
+          <h2 class="font-bold text-3xl md:text-4xl xl:text-5xl uppercase">
             Design and Manufacturing
-          </h1>
+          </h2>
           <p>
             Our company handles the entire design and manufacturing process from
             start to finish. If you have an upcoming project that needs
@@ -103,9 +103,9 @@
         <section
           class="flex flex-col items-center gap-4 justify-center text-center md:max-w-3/4 mx-auto p-4 md:p-8 lg:p-12 xl:p-16 lg:max-w-1/2 lg:text-start"
         >
-          <h1 class="font-bold text-3xl md:text-4xl xl:text-5xl uppercase">
+          <h2 class="font-bold text-3xl md:text-4xl xl:text-5xl uppercase">
             Why Choose Us
-          </h1>
+          </h2>
           <p>
             With BrandX Marketing Solutions, clients receive exclusive benefits
             and the convenience of working with a single company for

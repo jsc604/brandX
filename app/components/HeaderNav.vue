@@ -2,12 +2,15 @@
   <section
     class="w-full justify-between flex flex-col mx-auto items-center py-3 lg:flex-row flex-wrap gap-2"
   >
+    <h1 class="sr-only">Brand X Marketing Solutions</h1>
     <div class="flex items-center justify-between max-lg:w-full">
       <img
         src="/images/logo-horizontal-2.png"
         alt="BrandX Logo"
         class="w-[275px]"
-      >
+        width="275"
+        height="66"
+      />
       <USlideover
         v-model:open="open"
         class="lg:hidden"
