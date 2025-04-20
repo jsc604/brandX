@@ -65,13 +65,23 @@
         loop
         arrows
         dots
-        :prev="{ variant: 'solid' }"
-        :next="{ variant: 'solid' }"
+        :prev="{
+          variant: 'solid',
+          class:
+            'bg-haiti hover:text-haiti hover:cursor-pointer hover:bg-[#AEB7B3] border',
+        }"
+        :next="{
+          variant: 'solid',
+          class:
+            'bg-haiti hover:text-haiti hover:cursor-pointer hover:bg-[#AEB7B3] border',
+        }"
         prev-icon="i-lucide-chevron-left"
         next-icon="i-lucide-chevron-right"
         :autoplay="{ delay: 4000 }"
         :items="items"
-        :ui="{ item: 'basis-1/1.1' }"
+        :ui="{
+          item: 'basis-1/1.1',
+        }"
         class="w-3/4 mb-8"
       >
         <img

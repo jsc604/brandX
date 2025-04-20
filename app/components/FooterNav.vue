@@ -37,13 +37,13 @@
     </div>
 
     <div class="space-x-2">
-      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/" class="hover:text-lime-500 hover:bg-haiti rounded-md px-1 transition-colors duration-300">Home</NuxtLink>
       <span>|</span>
-      <NuxtLink to="/about">About us</NuxtLink>
+      <NuxtLink to="/about" class="hover:text-lime-500 hover:bg-haiti rounded-md px-1 transition-colors duration-300">About us</NuxtLink>
       <span>|</span>
-      <NuxtLink to="/services">Services</NuxtLink>
+      <NuxtLink to="/services" class="hover:text-lime-500 hover:bg-haiti rounded-md px-1 transition-colors duration-300">Services</NuxtLink>
       <span>|</span>
-      <NuxtLink to="/contact">Contact</NuxtLink>
+      <NuxtLink to="/contact" class="hover:text-lime-500 hover:bg-haiti rounded-md px-1 transition-colors duration-300">Contact</NuxtLink>
     </div>
     <p class="text-xs text-neutral">
       © 2025, BrandX Marketing Solutions. All Rights Reserved.

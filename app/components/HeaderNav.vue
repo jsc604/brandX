@@ -56,7 +56,7 @@
     >
       <div class="flex items-center gap-1">
         <UIcon name="i-lucide-mail" class="size-5" />
-        <span>info@valueaddsource.com</span>
+        <span class="text-sm">info@valueaddsource.com</span>
       </div>
       <div class="space-x-2 whitespace-nowrap">
         <UButton

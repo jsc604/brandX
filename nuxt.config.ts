@@ -29,7 +29,6 @@ export default defineNuxtConfig({
           content: "width=device-width, initial-scale=1",
         },
         {
-          hid: "description",
           name: "description",
           content:
             "Custom on-packs & POS promos. Brand X Marketing Solutions delivers 30+ years of design & manufacturing expertise for standout retail marketing.",
