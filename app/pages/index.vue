@@ -10,7 +10,7 @@
           class="w-4/5 md:w-full h-auto hero-bottle"
           width="400"
           height="600"
-        >
+        />
         <div class="light-sweep" />
       </div>
       <div
@@ -19,7 +19,7 @@
         <h2
           class="font-bold text-xl md:text-4xl lg:text-5xl xl:text-6xl uppercase"
         >
-          Manufacturing, Sourcing,<br><span
+          Manufacturing, Sourcing,<br /><span
             class="text-4xl md:text-6xl lg:text-7xl xl:text-8xl relative"
             >Innovations
             <span class="absolute bottom-0 left-0 h-1 bg-lime-500 w-1/4"
@@ -45,7 +45,7 @@
           class="font-bold text-xl md:text-4xl lg:text-5xl xl:text-6xl uppercase"
         >
           Customized POS Merchandise
-          <br><span
+          <br /><span
             class="text-4xl md:text-6xl lg:text-7xl xl:text-8xl relative"
             >For Wine & Spirit
             <span
@@ -80,7 +80,7 @@
           height="250"
           class="rounded-lg"
           :alt="item.alt"
-        >
+        />
       </UCarousel>
 
       <div
@@ -101,7 +101,7 @@
           </p>
         </section>
         <section
-          class="flex flex-col items-center gap-4 justify-center text-center md:max-w-3/4 mx-auto p-4 md:p-8 lg:p-12 xl:p-16 lg:max-w-1/2 lg:text-start"
+          class="flex flex-col items-center gap-4 justify-center text-center md:max-w-3/4 mx-auto p-4 md:p-8 lg:p-12 xl:p-16 lg:max-w-1/2 lg:text-start lg:items-start"
         >
           <h2 class="font-bold text-3xl md:text-4xl xl:text-5xl uppercase">
             Why Choose Us

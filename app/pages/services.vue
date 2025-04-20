@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center justify-center gap-16 md:gap-24 pb-16 pt-8 md:pb-24 min-h-screen"
+    class="flex flex-col items-center justify-center gap-16 md:gap-24 pb-16 pt-8 md:pt-16 lg:pt-24 md:pb-24 min-h-screen"
   >
     <section class="text-center space-y-8 md:space-y-16 max-w-4xl">
       <h2 class="font-bold text-xl md:text-4xl lg:text-5xl uppercase">
@@ -86,5 +86,6 @@ useHead({
         "Discover 30+ years of expertise in custom packaging, design, and manufacturing. We deliver standout on-pack solutions tailored to your brand.",
     },
   ],
+  link: [{ rel: "canonical", href: "https://valueaddsource.com/services" }],
 });
 </script>

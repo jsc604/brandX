@@ -4,13 +4,15 @@
   >
     <h1 class="sr-only">Brand X Marketing Solutions</h1>
     <div class="flex items-center justify-between max-lg:w-full">
-      <img
-        src="/images/logo-horizontal-2.png"
-        alt="BrandX Logo"
-        class="w-[275px]"
-        width="275"
-        height="66"
-      />
+      <NuxtLink to="/">
+        <img
+          src="/images/logo-horizontal-2.png"
+          alt="BrandX Logo"
+          class="w-[275px]"
+          width="275"
+          height="66"
+        />
+      </NuxtLink>
       <USlideover
         v-model:open="open"
         class="lg:hidden"
