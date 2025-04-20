@@ -18,7 +18,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Brand X Marketing Solutions",
+      title: "Brand X Marketing Solutions | Custom On-Packs & POS Merchandise",
       htmlAttrs: {
         lang: "en",
       },
@@ -32,7 +32,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "Consumer Brands distributor and manufacturer of POS merchandise",
+            "Custom on-packs & POS promos. Brand X Marketing Solutions delivers 30+ years of design & manufacturing expertise for standout retail marketing.",
         },
         {
           "http-equiv": "Content-Security-Policy",
@@ -42,7 +42,7 @@ export default defineNuxtConfig({
         {
           name: "og:description",
           content:
-            "Consumer Brands distributor and manufacturer of POS merchandise",
+            "Custom on-packs & POS promos. Brand X Marketing Solutions delivers 30+ years of design & manufacturing expertise for standout retail marketing.",
         },
         {
           name: "og:image",
@@ -53,7 +53,7 @@ export default defineNuxtConfig({
           content: "/images/logo-vertical.png",
         },
       ],
-      link: [{ rel: "canonical", href: "https://valueaddsource.com/" }],
+      link: [{ rel: "canonical", href: "https://valueaddsource.com" }],
     },
   },
 });

@@ -141,6 +141,18 @@ const items = [
     alt: "Segura Viudas promotion",
   },
 ];
+
+useHead({
+  title: "Brand X Marketing Solutions | Custom On-Packs & POS Merchandise",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Custom on-packs & POS promos. Brand X Marketing Solutions delivers 30+ years of design & manufacturing expertise for standout retail marketing.",
+    },
+  ],
+  link: [{ rel: "canonical", href: "https://valueaddsource.com" }],
+});
 </script>
 
 <style scoped>
