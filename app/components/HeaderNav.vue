@@ -1,24 +1,25 @@
 <template>
   <section
-    class="w-full justify-between flex flex-col mx-auto items-center p-3 lg:flex-row"
+    class="w-full justify-between flex flex-col mx-auto items-center py-3 lg:flex-row flex-wrap gap-2"
   >
     <div class="flex items-center justify-between max-lg:w-full">
-      <h1
-        class="font-bold text-center text-lg min-[382px]:text-xl min-[442px]:text-2xl uppercase"
+      <img
+        src="/images/logo-horizontal-2.png"
+        alt="BrandX Logo"
+        class="w-[275px]"
       >
-        Brand<span class="text-lime-500">X</span>{{ "" }}
-        <span class="text-[#787878]">Marketing Solutions</span>
-      </h1>
       <USlideover
         v-model:open="open"
         class="lg:hidden"
         :close="{
-          color: 'primary',
-          variant: 'outline',
+          color: 'neutral',
+          variant: 'solid',
           class: 'rounded-full',
         }"
       >
-        <UButton icon="i-lucide-menu" color="subtle" size="xl" />
+        <UButton color="subtle"
+          ><UIcon name="i-lucide-menu" size="32"
+        /></UButton>
 
         <template #body>
           <UNavigationMenu
@@ -27,7 +28,7 @@
             orientation="vertical"
           >
             <template #item="{ item, isExternal, attrs }">
-              <UNavLink
+              <ULink
                 v-bind="attrs"
                 :to="item.to"
                 :external="isExternal"
@@ -36,7 +37,7 @@
               >
                 <UIcon :name="item.icon" class="mr-2" />
                 {{ item.label }}
-              </UNavLink>
+              </ULink>
             </template>
           </UNavigationMenu>
         </template>
@@ -45,7 +46,9 @@
 
     <UNavigationMenu :items="items" color="primary" class="max-lg:hidden" />
 
-    <div class="flex flex-col lg:flex-row items-center gap-2">
+    <div
+      class="flex flex-col lg:flex-row items-center gap-2 lg:ml-auto xl:ml-0"
+    >
       <div class="flex items-center gap-1">
         <UIcon name="i-lucide-mail" class="size-5" />
         <span>info@valueaddsource.com</span>
