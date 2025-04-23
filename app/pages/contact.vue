@@ -117,10 +117,10 @@ async function onSubmit() {
   });
 
   //   console.log({ response });
-  state.name = "";
-  state.email = "";
-  state.subject = "";
-  state.message = "";
+  // state.name = "";
+  // state.email = "";
+  // state.subject = "";
+  // state.message = "";
   // } catch (err) {
   //   toast.add({
   //     title: "Error",
