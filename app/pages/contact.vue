@@ -51,6 +51,10 @@
         <UInput v-model="state.email" class="w-full" />
       </UFormField>
 
+      <UFormField label="Subject" name="subject">
+        <UInput v-model="state.subject" class="w-full" />
+      </UFormField>
+
       <UFormField label="Message*" name="message">
         <UTextarea v-model="state.message" class="w-full" />
       </UFormField>
@@ -71,12 +75,14 @@ import * as v from "valibot";
 const schema = v.object({
   name: v.pipe(v.string(), v.minLength(1, "Name is required")),
   email: v.pipe(v.string(), v.email("Invalid email")),
+  subject: v.pipe(v.string(), v.minLength(0, "")),
   message: v.pipe(v.string(), v.minLength(1, "Message is required")),
 });
 
 const state = reactive({
   name: "",
   email: "",
+  subject: "",
   message: "",
 });
 
@@ -84,7 +90,6 @@ const toast = useToast();
 
 async function onSubmit() {
   const result = v.safeParse(schema, state);
-  console.log({ result });
   if (!result.success) {
     const errors = Object.values(result.issues)
       .map((issue) => issue.message)
@@ -97,13 +102,31 @@ async function onSubmit() {
     return;
   }
 
-  // Simulate form submission
+  // try {
+  //   const response = await $fetch("/api/email", {
+  //     method: "POST",
+  //     body: {
+  //       ...state,
+  //     },
+  //   });
+
   toast.add({
     title: "Success",
     description: "The form has been submitted.",
     color: "success",
   });
 
-  console.log(state);
+  //   console.log({ response });
+  state.name = "";
+  state.email = "";
+  state.subject = "";
+  state.message = "";
+  // } catch (err) {
+  //   toast.add({
+  //     title: "Error",
+  //     description: "Something went wrong while sending your message.",
+  //     color: "red",
+  //   });
+  // }
 }
 </script>
