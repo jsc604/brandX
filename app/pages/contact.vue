@@ -30,7 +30,7 @@
         />
         <UButton
           icon="i-simple-icons-instagram"
-          to="https://www.instagram.com/brandxmarketing/"
+          to="https://www.instagram.com/valueaddsource?igsh=MTk1a2prMHQ3ZnRhZg=="
           target="_blank"
           class="rounded-full hover:bg-lime-500 transition-colors duration-300 hover:text-haiti"
         />
